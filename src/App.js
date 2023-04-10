@@ -16,7 +16,7 @@ import ResetPassword from './Components/ResetPassword';
 import Header from './Components/Header';
 import DashBoard from './Components/DashBoard/DashBoard';
 
-const socket = io.connect('http://localhost:8000');
+const socket = io.connect('http://localhost:8010');
 
 function App() {
   const [user, setUser, loading] = useFindUser();
