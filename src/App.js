@@ -16,7 +16,7 @@ import ResetPassword from './Components/ResetPassword';
 import Header from './Components/Header';
 import DashBoard from './Components/DashBoard/DashBoard';
 
-const socket = io.connect('https://chat-app-b6mo.onrender.com');
+const socket = io.connect('https://chat-app-p3e7.onrender.com');
 
 function App() {
   const [user, setUser, loading] = useFindUser();
